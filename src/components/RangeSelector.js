@@ -6,7 +6,7 @@ const RangeSelector = ({ onRangeSelected, data, onGenreFilterSelected,onSongDeta
     if (data == null || data.length === 0) { return <h1>Loading</h1> };
 
 
-    const chartRangeArray = [1,2, 5, 10, 20, 30, 40, 50, 100];
+    const chartRangeArray = [3, 5, 10, 20, 30, 40, 50, 100];
     const chartRangeOptions = chartRangeArray.map((range, index) => {
         return <option key={index} value={range}>Top {range}</option>
     });
