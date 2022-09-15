@@ -2,37 +2,69 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.song-card {
+  min-width: 40vw;
+  max-width: 40vw;
+  min-height: 35vh;
+  max-height: 60vh;
+  border: 2px solid black;
+  margin-top: 1vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.songs-container {
+  background-color: pink;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: auto;
+  border: 1px solid black;
+  min-height: 100vh;
+}
+
+
+
+.audio {
+  max-width: 20vw;
+  max-height: 3vh;
+}
+
+.option1 {
+  border: 2px solid black;
+  width: 20vw;
+  height: 5vh;
+  font-size: 20px;
+  background: linear-gradient(pink, white);
+}
+
+.options {
+  padding-bottom: 1vh;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: orangered;
+
+}
+
+.image {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
+.song-detail {}
+
+.img-text {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  display: flex;
+  border: 1px solid black;
+  margin:auto;
+  min-width:20vw;
+  max-width:50vw;
+  max-height:170px;
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
